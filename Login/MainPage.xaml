@@ -2,7 +2,12 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Login.MainPage"
-             BackgroundColor="{DynamicResource SecondaryColor}">
+             BackgroundColor="{DynamicResource PrimaryColor}"
+             Shell.NavBarIsVisible="False">
+
+    <Grid BackgroundColor="{StaticResource PrimaryColor}">
+        
+    </Grid>
 
     
 </ContentPage>
