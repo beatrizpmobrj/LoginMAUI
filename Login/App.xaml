@@ -9,7 +9,7 @@
             <Color x:Key="PrimaryColor">#512bdf</Color>
             <Color x:Key="SecondaryColor">White</Color>
 
-            <Style TargetType="Label">
+            <Style x:Key="welcome" TargetType="Label">
                 <Setter Property="TextColor" Value="{DynamicResource PrimaryColor}"/>
             </Style>
 

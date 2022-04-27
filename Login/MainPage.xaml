@@ -6,6 +6,26 @@
              Shell.NavBarIsVisible="False">
 
     <Grid BackgroundColor="{StaticResource PrimaryColor}">
+        <StackLayout Margin="20">
+            <StackLayout Padding="0,250,0,0">
+                <Label TextColor="{StaticResource SecondaryColor}" FontSize="16" Text="Usuário"/>
+                <Grid Margin="0,5">
+                    <Frame Opacity="0.3" BackgroundColor="White" CornerRadius="5"/>
+                    <Entry BackgroundColor="Transparent" TextColor="White" Margin="5,0"
+                           PlaceholderColor="LightGray"/>
+                </Grid>
+
+                <Label TextColor="{StaticResource SecondaryColor}" FontSize="16" Text="Senha"/>
+                <Grid Margin="0,5">
+                    <Frame Opacity="0.3" BackgroundColor="White" CornerRadius="5"/>
+                    <Entry BackgroundColor="Transparent" TextColor="White" Margin="5,0"
+                           PlaceholderColor="LightGray" IsPassword="True"/>
+                </Grid>
+            </StackLayout>
+
+            <Button Margin="0,15" BackgroundColor="{StaticResource SecondaryColor}" Text="LOGAR COM GOOGLE"
+                    TextColor="{StaticResource PrimaryColor}" HeightRequest="50" WidthRequest="300" ImageSource="google.png"/>
+        </StackLayout>
         
     </Grid>
 

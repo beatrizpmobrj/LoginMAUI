@@ -942,3 +942,8 @@ C:\MAUI\Login\Login\obj\Debug\net6.0-android\stamp\_ConvertResourcesCases.stamp
 C:\MAUI\Login\Login\obj\Debug\net6.0-android\stamp\_GenerateJavaStubs.stamp
 C:\MAUI\Login\Login\obj\Debug\net6.0-android\stamp\_GeneratePackageManagerJava.stamp
 C:\MAUI\Login\Login\obj\Debug\net6.0-android\stamp\_ResolveLibraryProjectImports.stamp
+C:\MAUI\Login\Login\obj\Debug\net6.0-android\resizetizer\r\drawable-hdpi\google.png
+C:\MAUI\Login\Login\obj\Debug\net6.0-android\resizetizer\r\drawable-mdpi\google.png
+C:\MAUI\Login\Login\obj\Debug\net6.0-android\resizetizer\r\drawable-xhdpi\google.png
+C:\MAUI\Login\Login\obj\Debug\net6.0-android\resizetizer\r\drawable-xxhdpi\google.png
+C:\MAUI\Login\Login\obj\Debug\net6.0-android\resizetizer\r\drawable-xxxhdpi\google.png
