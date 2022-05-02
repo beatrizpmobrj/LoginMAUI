@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace Login.Platforms.Android.Interfaces
 {
-    internal class IGoogleManager
+    public interface IGoogleManager
     {
+        void Login();
+        void Logout();
     }
 }
