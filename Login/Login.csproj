@@ -47,6 +47,9 @@
 	</ItemGroup>
 
 	<ItemGroup Condition="'$(TargetFramework)' == 'net6.0-android'">
+	  <PackageReference Include="Xamarin.GooglePlayServices.Auth">
+	    <Version>120.0.1</Version>
+	  </PackageReference>
 	  <PackageReference Include="Xamarin.GooglePlayServices.Base">
 	    <Version>118.0.1</Version>
 	  </PackageReference>
@@ -58,6 +61,10 @@
 
 	<ItemGroup>
 	  <GoogleServicesJson Include="google-services (3).json" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <PackageReference Include="Firebase.Auth" Version="1.0.0" />
 	</ItemGroup>
 
 </Project>
