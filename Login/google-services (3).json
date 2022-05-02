@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1038880080909",
+    "project_id": "loginmaui",
+    "storage_bucket": "loginmaui.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1038880080909:android:9b5e887a97ab4875104144",
+        "android_client_info": {
+          "package_name": "com.company.login"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1038880080909-ovf89mis26gusukqibcismdu7fc2tkcb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.company.login",
+            "certificate_hash": "70fcba5e500b425aba2bff801913da47a070e51f"
+          }
+        },
+        {
+          "client_id": "1038880080909-j8gbqd7eo8n3mdnnnoekeh9emufvkt0p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB6-DU_I9UChdDbzhcwypHsiovAEpbqvIU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1038880080909-j8gbqd7eo8n3mdnnnoekeh9emufvkt0p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

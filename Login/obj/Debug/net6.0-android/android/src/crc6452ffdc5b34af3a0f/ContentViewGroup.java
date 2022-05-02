@@ -10,6 +10,7 @@ public class ContentViewGroup
 	public static final String __md_methods;
 	static {
 		__md_methods = 
+			"n_dispatchDraw:(Landroid/graphics/Canvas;)V:GetDispatchDraw_Landroid_graphics_Canvas_Handler\n" +
 			"n_onMeasure:(II)V:GetOnMeasure_IIHandler\n" +
 			"n_onLayout:(ZIIII)V:GetOnLayout_ZIIIIHandler\n" +
 			"";
@@ -47,6 +48,14 @@ public class ContentViewGroup
 		if (getClass () == ContentViewGroup.class)
 			mono.android.TypeManager.Activate ("Microsoft.Maui.Platform.ContentViewGroup, Microsoft.Maui", "Android.Content.Context, Mono.Android:Android.Util.IAttributeSet, Mono.Android:System.Int32, System.Private.CoreLib:System.Int32, System.Private.CoreLib", this, new java.lang.Object[] { p0, p1, p2, p3 });
 	}
+
+
+	public void dispatchDraw (android.graphics.Canvas p0)
+	{
+		n_dispatchDraw (p0);
+	}
+
+	private native void n_dispatchDraw (android.graphics.Canvas p0);
 
 
 	public void onMeasure (int p0, int p1)
